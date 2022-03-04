@@ -1,2 +1,5 @@
 rootProject.name = 'myproject2'
+include 'test'
+include 'src:main:untitled'
+findProject(':src:main:untitled')?.name = 'untitled'
 
