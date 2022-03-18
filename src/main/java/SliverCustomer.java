@@ -7,7 +7,7 @@ public class SliverCustomer extends Customer{
     }
     @Override
     public void print(){
-
-        System.out.print(id+"\t"+amount+"\t"+(amount-offmoney)+"()");
+        int offmoney=(amount/1000)*100;
+        System.out.print(id+"\t"+amount+"\t"+(amount-offmoney)+"("+backmoney+")");
     }
 }

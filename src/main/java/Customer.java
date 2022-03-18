@@ -1,7 +1,7 @@
 public class Customer {
     String id;
     int amount;
-    int offmoney=100*(amount/1000);
+    //int offmoney=(amount/1000)*100;
     public Customer(){
 
     }
@@ -10,7 +10,8 @@ public class Customer {
         this.amount=amount;
     }
     public void print(){
-
+        int offmoney=(amount/1000)*100;
         System.out.print(id+"\t"+amount+"\t"+(amount-offmoney));
+        System.out.println();
     }
 }
