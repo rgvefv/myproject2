@@ -1,3 +1,5 @@
+package shope;
+
 public class SliverCustomer extends Customer{
     int backmoney;
     public SliverCustomer(String id,int amount) {

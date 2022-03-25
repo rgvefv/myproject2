@@ -1,3 +1,5 @@
+package shope;
+
 public class Customer {
     String id;
     int amount;
