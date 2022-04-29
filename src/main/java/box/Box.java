@@ -1,4 +1,4 @@
-package com.fju.ai;
+package box;
 
 public class Box {
     int length;
